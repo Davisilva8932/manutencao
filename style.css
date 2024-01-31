@@ -1,0 +1,1177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+}
+
+.logo img {
+    width: 105px;
+    height: 50px;
+    margin-left: 90px;
+    padding-top: 5px;
+    border-radius: 15px;
+}
+
+.logo h3,
+h4 {
+    margin-left: 50px;
+    color: rgba(6, 147, 227, 1);
+    ;
+
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 35px;
+    margin-right: 100px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul,
+li,
+a {
+    text-decoration: none;
+    color: rgba(6, 147, 227, 1);
+}
+
+a:hover {
+    opacity: 0.8;
+    color: blue;
+}
+.menu {
+    cursor: pointer;
+    display: none;
+}
+.menu .bar {
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 3px;
+    background:rgba(6, 147, 227, 1) ;
+    margin: 5px auto;
+    transition: all 0.3s;
+}
+.menu .bar:nth-child(1),
+.menu .bar:nth-child(3){
+    background: blue;
+}
+
+a:active {
+    opacity: 0.4;
+}
+
+.c-title {
+    background-image: url(./img/AR\ CONDICIONAADO.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+    padding: 10px;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 250px;
+    color: white;
+}
+
+.p-do-inicio {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 50px 90px;
+    color: white;
+}
+
+span {
+    color: rgba(6, 147, 227, 1);
+    text-decoration: underline;
+}
+
+.bt-do-inicio {
+    text-align: center;
+
+}
+
+#lick-do-button {
+    color: #fff;
+}
+
+button:hover {
+    opacity: 0.8;
+
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+.section-1 {
+   padding: 20px;
+    background-color: rgba(6, 147, 227, 1);
+
+}
+
+.sobrenos-h1 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 40px;
+    color: white;
+}
+
+.span-nos {
+    color: blue;
+}
+
+.img-sobre-nos img {
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+    margin-left: 80px;
+}
+
+.sobre-nos {
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.title-sobre-nos {
+   margin-left: 100px;
+}
+
+.quem-somos {
+    font-size: 50px;
+    color: white;
+
+}
+
+.p-q-somos {
+    font-size: 30px;
+    color: white;
+}
+
+.bt-oçamento {
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    background: blue;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    border: none;
+}
+
+.section-2 {
+    padding: 20px;
+    background: rgb(77, 74, 74);
+    width: 100%;
+    height: 100vh;
+}
+
+.servico-h1 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+.instalacao-secti-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.instalacao-secti-2 img {
+    width: 300px;
+    height: 150px;
+    border-radius: 105px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.instalacao-secti-2 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: white;
+    margin-right: 160px;
+}
+
+.instalacao-secti-2 p {
+    margin-right: 200px;
+    font-size: 20px;
+    color: white;
+}
+
+.m-preventiva-sect-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.m-preventiva-sect-2 img {
+    width: 300px;
+    height: 150px;
+    border-radius: 105px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.m-preventiva-sect-2 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: white;
+    margin-right: 160px;
+}
+
+.m-preventiva-sect-2 p {
+    margin-right: 50px;
+    font-size: 20px;
+    color: white;
+    width: 820px;
+}
+
+.m-corretiva-sect-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.m-corretiva-sect-2 img {
+    width: 300px;
+    height: 150px;
+    border-radius: 105px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.m-corretiva-sect-2 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: white;
+    margin-right: 160px;
+}
+
+.m-corretiva-sect-2 p {
+    margin-right: 50px;
+    font-size: 20px;
+    color: white;
+    width: 820px;
+}
+
+.higienizacao-sect-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.higienizacao-sect-2 img {
+    width: 300px;
+    height: 150px;
+    border-radius: 105px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.higienizacao-sect-2 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: white;
+    margin-right: 160px;
+}
+
+.higienizacao-sect-2 p {
+    margin-right: 50px;
+    font-size: 20px;
+    color: white;
+    width: 820px;
+}
+
+.recarga-de-gas-sect-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.recarga-de-gas-sect-2 img {
+    width: 300px;
+    height: 150px;
+    border-radius: 105px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.recarga-de-gas-sect-2 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: white;
+    margin-right: 160px;
+}
+
+.recarga-de-gas-sect-2 p {
+    margin-right: 50px;
+    font-size: 20px;
+    color: white;
+    width: 820px;
+}
+.section-3 {
+    padding: 20px;
+}
+
+.h1-contato {
+    text-align: center;
+    padding-top: 45px;
+    font-size: 40px;
+    color: rgba(6, 147, 227, 1);
+}
+
+.realiz-cont-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+
+.img-h1-ul-section-3 {
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 50px;
+    background-image: url(./img/olavio\ fundo\ de\ tela.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 700px;
+    height: 550px;
+    border-radius: 55px;
+}
+
+.h1-h2-serv-realizamos {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.ul-realizamos {
+    display: block;
+    font-weight: bold;
+    margin-top: 220px;
+    padding-left: 30px;
+}
+
+.intem-lista {
+    font-size: 30px;
+    color: white;
+    margin-left: 30px;
+}
+
+.img-tel {
+    display: block;
+    width: 70px;
+    margin: 0 auto;
+}
+
+.h3-do-contato {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgba(6, 147, 227, 1);
+}
+
+.h4-do-contato {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.img-what {
+    display: block;
+    width: 75px;
+    margin: 0 auto;
+}
+
+.img-email {
+    display: block;
+    width: 70px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+form {
+    background-image: url(./img/conforto.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 20%;
+    padding: 20px;
+    min-width: 350px;
+    border-radius: 10px;
+    box-shadow: 15px 10px rgba(0, 0, 0, 0.3);
+    margin: 100px;
+}
+
+input,
+textarea {
+    min-width: 320px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #c1c1c1;
+    margin-top: 20px;
+    height: 40px;
+    padding-left: 10px;
+
+}
+
+textarea {
+    height: 200px;
+    padding-top: 10px;
+}
+
+.bt-formulario {
+    background: rgba(6, 147, 227, 1);
+    display: block;
+    margin: 20px auto;
+    height: 40px;
+    min-width: 320px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.h1-formulario {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.h2-formulario {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.localização {
+    display: block;
+    margin-top: 50px;
+}
+
+.localização h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 150px;
+    padding-top: 100px;
+    color: rgba(6, 147, 227, 1);
+}
+
+.localização iframe {
+    display: block;
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.marcas {
+    display: block;
+}
+
+.marcas h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgba(6, 147, 227, 1);
+}
+
+.marcas img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+    width: 100%;
+    height: 280px;
+}
+
+.sap {
+    width: 80px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    background-color: rgba(6, 147, 227, 1);
+}
+
+footer h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+footer img {
+    width: auto;
+    height: 80px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width:780px) {
+    body {
+
+        background-color: cadetblue;
+        width: 100%;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 10%;
+        padding: 10px;
+        position: fixed;
+        top: 0;
+        background-color:white;
+    }
+    
+
+    .logo img {
+        width: 90px;
+        height: 40px;
+        margin-left: 10px;
+        padding: 5px;
+        border-radius: 55px;
+       
+    }
+    
+    .logo h3,
+    h4 {
+        font-size: 13px;
+       text-align: center;
+        color: rgba(6, 147, 227, 1);
+        margin-left: 0px;
+    }
+    .menu {
+        display: block;
+       margin-right: 10px;
+    }
+    .menu.ativo .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .menu.ativo .bar:nth-child(2){
+        opacity:0;
+    }
+    .menu.ativo .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);  
+    }
+
+    .lincks {
+       position: fixed;
+       right: -150%;
+       top: 55px;
+       padding-top:  40px ;
+       padding-left: 30px;
+       width: 100%;
+       height: 100%;
+       flex-direction: column;
+       font-weight: bold;
+       gap: 20px;
+       transition: 0.3s;
+       font-size: 30px;
+       background-image: url(./img/serviço\ img.jpg);
+       background-repeat: no-repeat;
+       background-position: center;
+       cursor: pointer;
+    }
+    .lincks:hover {
+        opacity: 0;
+    }
+
+    .lincks.ativo {
+        left: 0px;
+    }
+    .linck-item {
+        margin: 16px 0;
+        color: rgba(6, 147, 227, 1);
+    }
+    .linck-item:hover {
+        opacity: 0.6;
+    }
+   
+
+    .c-title {
+        background-image: url(./img/AR\ CONDICIONAADO.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        padding: 20px;
+
+    }
+
+    .title {
+        text-align: center;
+        font-size: 17px;
+        color: white;
+    }
+
+    .p-do-inicio {
+        text-align: center;
+        font-size: 15px;
+        font-weight: bolder;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: white;
+    }
+
+    .bt-do-inicio {
+        text-align: center;
+
+    }
+
+    .bt-orcamento {
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+        font-size: 15px;
+        color: white;
+        background: blue;
+        border: none;
+        cursor: pointer;
+    }
+
+    #lick-do-button {
+        color: #fff;
+    }
+
+    button:hover {
+        opacity: 0.8;
+
+    }
+
+    button:active {
+        opacity: 0.6;
+    }
+
+    .section-1 {
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(6, 147, 227, 1);
+
+    }
+
+    .section-1 {
+        padding: 20px;
+    }
+
+    .sobrenos-h1 {
+        text-align: center;
+        padding-top: 1px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .span-nos {
+        color: blue;
+    }
+
+    .sobre-nos {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .img-sobre-nos img {
+        width: 300px;
+        height: 200px;
+        border-radius: 20px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .title-sobre-nos {
+        padding-left: 10px;
+        margin: 10px;
+        margin-left: 10px;
+        
+    }
+
+    .quem-somos {
+        font-size: 23px;
+        color: white;
+        text-align: center;
+        width: 70vw;
+    }
+    #quemsomos-h2 {
+        width: 70vw;
+    }
+
+    .p-q-somos {
+        font-size: 15px;
+        color: white;
+        width: 300px;
+        margin-top: 10px;
+       margin-right: 20px;
+
+    }
+
+    .bt-oçamento {
+        width: 200px;
+        height: 40px;
+        border-radius: 10px;
+        font-size: 15px;
+        color: white;
+        background: blue;
+        border: none;
+        margin-bottom: 30px;
+       
+    }
+
+    .section-2 {
+        padding: 10px;
+        background: rgb(77, 74, 74);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .servico-h1 {
+        text-align: center;
+        padding-top: 5px;
+        font-size: 20px;
+        color: white;
+        margin-bottom: 15px;
+    }
+
+    .instalacao-secti-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+     
+    }
+
+    .instalacao-secti-2 img {
+        width: 100px;
+        height: 50px;
+        margin-left: 60px;
+        border-radius: 105px;
+        margin-bottom: 20px;
+    }
+
+    .instalacao-secti-2 h1 {
+        font-size: 17px;
+        text-align: center;
+        margin: 0 auto;
+        color: white;
+        gap: 5px;
+    }
+
+    .instalacao-secti-2 p {
+        margin: 0 auto;
+        padding-left: 30px;
+        font-size: 14px;
+        color: white;
+    }
+
+    .m-preventiva-sect-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+    }
+
+    .m-preventiva-sect-2 img {
+        width: 100px;
+        height: 46px;
+        margin-left: 60px;
+        border-radius: 105px;
+    }
+
+    .m-preventiva-sect-2 h1 {
+        font-size: 17px;
+        text-align: center;
+        margin: 0 auto;
+        color: white;
+    }
+
+    .m-preventiva-sect-2 p {
+        margin-right: 0px;
+        margin-left: 30px;
+        font-size: 14px;
+        color: white;
+        max-width: 320;
+        width: 320px;
+        
+    }
+
+    .m-corretiva-sect-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .m-corretiva-sect-2 img {
+        width: 100px;
+        height: 46px;
+        margin-left: 60px;
+        border-radius: 105px;
+    }
+
+    .m-corretiva-sect-2 h1 {
+        font-size: 17px;
+        text-align: center;
+        margin: 0 auto;
+        color: white;
+    }
+
+    .m-corretiva-sect-2 p {
+        margin-right: 0px;
+        margin-left: 30px;
+        font-size: 14px;
+        color: white;
+        width: 320px;
+    }
+
+    .higienizacao-sect-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .higienizacao-sect-2 img {
+        width: 100px;
+        height: 46px;
+        margin-left: 60px;
+        border-radius: 105px;
+    }
+
+    .higienizacao-sect-2 h1 {
+        font-size: 17px;
+        text-align: center;
+        margin: 0 auto;
+        color: white;
+    }
+
+    .higienizacao-sect-2 p {
+        margin-right: 1px;
+        margin-left: 10px;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        width: 350px;
+    }
+
+    .recarga-de-gas-sect-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .recarga-de-gas-sect-2 img {
+        width: 100px;
+        height: 46px;
+        margin-left: 60px;
+        border-radius: 105px;
+        
+    }
+
+    .recarga-de-gas-sect-2 h1 {
+        font-size: 17px;
+        text-align: center;
+        margin: 0 auto;
+        color: white;
+    }
+
+    .recarga-de-gas-sect-2 p {
+        margin-right: 5px;
+        margin-left: 5px;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        width: 350px;
+       
+    }
+
+    .section-3 {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .h1-contato {
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .realiz-cont-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-h1-ul-section-3 {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+       
+    }
+
+    .h1-h2-serv-realizamos {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 15px;
+        color:white
+    }
+
+    .ul-realizamos {
+        display: block;
+        font-weight: bold;
+       
+    }
+
+    .intem-lista {
+        font-size: 20px;
+        color:white;
+        margin-left: 10px;
+    }
+
+    .img-tel {
+        display: block;
+        width: 70px;
+        margin: 0 auto;
+    }
+
+    .h3-do-contato {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color:white;
+    }
+
+    .h4-do-contato {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 30px;
+        color: #fff;
+    }
+
+
+    .img-what {
+        display: block;
+        width: 70px;
+        margin: 30px auto;
+    }
+
+    .img-email {
+        display: block;
+        width: 65px;
+        margin: 20px auto;
+        border-radius: 20px;
+    }
+    .formulario {
+        display: flex;
+        justify-content: center;
+        max-width: 350px;
+        width: 350px;
+    }
+
+    form {
+        background-image: url(./img/conforto.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 350px;
+        padding: 2px;
+        min-width: 350px;
+        border-radius: 10px;
+        box-shadow:none;
+        margin:0 auto;
+
+     
+    }
+
+    input,
+    textarea {
+        min-width: 320px;
+        display: block;
+        margin: 0 auto;
+        border-radius: 5px;
+        border: 1px solid #c1c1c1;
+        margin-top: 20px;
+        height: 40px;
+        padding-left: 10px;
+
+    }
+
+    textarea {
+        height: 200px;
+        padding-top: 10px;
+    }
+
+    .bt-formulario {
+        background: rgba(6, 147, 227, 1);
+        display: block;
+        margin: 20px auto;
+        height: 40px;
+        min-width: 320px;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .h1-formulario {
+        font-size: 30px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .h2-formulario {
+        font-size: 20px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .localização {
+        display: block;
+        margin-top: 50px;
+    }
+
+    .localização h1 {
+        text-align: center;
+        font-size: 22px;
+        margin-top: 150px;
+        padding-top: 100px;
+        color: white;
+    }
+
+    .localização iframe {
+        display: block;
+        width: 320px;
+        height: 300px;
+        margin: 0 auto;
+        margin-right: 25px;
+        padding-left: 10px;
+        
+    }
+
+    .marcas {
+        display: block;
+        padding: 10px;
+    }
+
+    .marcas h1 {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        color: white;
+    }
+
+    .marcas img {
+        display: block;
+        margin: 0 auto;
+        margin-left: 1px;
+        border-radius: 25px;
+        width: 100%;
+        height: 150px;
+    }
+
+    .sap {
+        width: 60px;
+        position: fixed;
+        bottom: 10px;
+        right:10px;
+        z-index: 9999;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 100vw;
+        background-color: rgba(6, 147, 227, 1);
+    }
+
+    footer h2 {
+        color: #fff;
+        font-size: 20px;
+       margin-right: 20px;
+    }
+
+    footer img {
+        width: auto;
+        height: 80px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      
+    }
+
+
+
+
+
+
+
+}
